@@ -21,3 +21,16 @@ deactivate
 
 # install flask
 python -m pip install flask
+
+
+# running the project
+python server.py 
+
+
+# OLD official way
+FLASK_ENV=deelopment
+FLASK_APP=server.py
+flask run
+
+# offcial way
+flask --app server --debug run
